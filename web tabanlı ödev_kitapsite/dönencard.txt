@@ -1,0 +1,111 @@
+HTML
+
+ <div class="container">
+        <div class="row justify-content-center">
+            <div class="col sm-12 col-md-8 col-lg-5">
+                <div class="rotate-container">
+                    <div class="card card-front text-center">
+                        <div class="card-header">
+                            <div class="card-background">
+                                <div class="card-block">
+                                    <img src="suzan defter.jpg">
+                                    <h3 class="card-title">Suzan Defter</h3>
+                                    <p>Ayfer Tunç</p>
+                                    <button class="btn btn-primary btn-rotate">Oku</button>
+                                    &nbsp;  
+
+                                    <div class="card card-back text-center">
+                                        <div class="card-block">
+                                            <p>Bu kitabında Osman Balcıgil Deniz Gezmiş’i misafir ediyor kitabın sayfalarında.Biyografi kitabı olduğunu düşündürebilir size bir başkasının hayatı anlatıldığı için ama yazar farklı bir anlatım tarzı kullanmayı seçmiş anlatırken.
+                                                 Çok da güzel yapmış. Deniz Gezmiş’le karşılıklı oturup sohbet edermiş gibi anlatıyor olanları Balcıgil.
+                                                  Kitabı okurken bu sohbete siz de katılıyorsunuz tabii ki. Kitapla alakalı en çok sevdiğim kısım bu oldu sanırım.
+                                                   Kitapta Deniz Gezmiş’in hayatı uzun uzun anlatılmıyor. Yaptıklarının veya yapmadıklarının sebepleri, fikirleri, neyi düşünerek hareket ettiği bir sohbet havasında anlatılıyor.
+                                                    Osman Balcıgil bir kardeşiyle, Deniz Gezmiş de bir abisiyle dertleşiyor sanki kitapta.
+                                                     Umarım siz de okursanız kitabın kapağını kapattığınızda okuduğunuz için iyi ki diyebilirsiniz.</p>
+                                                     <button class="btn btn-primary btn-rotate">
+                                                        | &nbsp; Back 
+                                                     </button>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+CSS
+
+.rotate-container{
+    position: relative;
+}
+
+.card-front{
+    width: 100%;
+    height: 100%;
+    transform: perspective(600px) rotateY(0deg);
+    backface-visibility: hidden;
+    transition: all .5s linear 0s;
+}
+
+.card-back{
+    @extend .card-front
+    transform: perspective(1600px) rotateY(180deg);
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+}
+
+.rotate-card-front{
+    transform: perspective(1600px) rotateY(-180deg);
+}
+
+.rotate-card-back{
+    transform: perspective(1600px) rotateY(0deg);
+}
+
+.card{
+    box-shadow: 0 8px 6px -6px purple;
+}
+
+.card-header{
+    margin: 0;
+}
+
+.card-background{
+    background: url('https://wallpapertag.com/wallpaper/full/1/d/3/844579-new-splatter-backgrounds-2560x1600-for-ipad-pro.jpg');
+    height: 8em;
+    background-position: center center;
+    background-size: cover;
+}
+
+.btn{
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+
+
+
+
+
+JS
+
+
+
+$(function(){
+    $('.btn-rotate').click(function(){
+        $('.card-front').toggleClass('rotate-card-front');
+        $('.card-back').toggleClass('rotate-card-back');
+    });
+});

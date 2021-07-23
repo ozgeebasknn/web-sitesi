@@ -1,0 +1,163 @@
+ <section id="kitapÖnerileri">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col">
+                    <h1>Kitap Önerileri</h1>
+                    <p class="kitap1">Kitap özetleri hakkında bilgi yorumlar vs</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="kitapResimleri/karanlık oda.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
+                            <h3>Karanlık Oda</h3>
+                            <h5>Osman Balcıgil</h5>
+                            <p>Bu kitabında Osman Balcıgil Deniz Gezmiş’i misafir ediyor kitabın sayfalarında.
+                                Biyografi kitabı olduğunu düşündürebilir size bir başkasının hayatı anlatıldığı için ama yazar farklı bir anlatım tarzı kullanmayı seçmiş anlatırken. Çok da güzel yapmış. 
+                                Deniz Gezmiş’le karşılıklı oturup sohbet edermiş gibi anlatıyor olanları Balcıgil. Kitabı okurken bu sohbete siz de katılıyorsunuz tabii ki. 
+                                Kitapla alakalı en çok sevdiğim kısım bu oldu sanırım. Kitapta Deniz Gezmiş’in hayatı uzun uzun anlatılmıyor. Yaptıklarının veya yapmadıklarının sebepleri, fikirleri, neyi düşünerek hareket ettiği bir sohbet havasında anlatılıyor. 
+                                Osman Balcıgil bir kardeşiyle, Deniz Gezmiş de bir abisiyle dertleşiyor sanki kitapta. Umarım siz de okursanız kitabın kapağını kapattığınızda okuduğunuz için iyi ki diyebilirsiniz.</p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="kitapResimleri/türkan.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
+                            <h3>Türkan</h3>
+                            <h5>Ayşe Kulin</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nemo perspiciatis, dolores in vero porro aliquid quis ab unde similique veniam quod sint adipisci dolorem eum quos eligendi optio! Corrupti.</p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="kitapResimleri/yeşil mürekkep.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
+                            <h3>Yeşil Mürekkep</h3>
+                            <h5>Osman Balcıgil</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nemo perspiciatis, dolores in vero porro aliquid quis ab unde similique veniam quod sint adipisci dolorem eum quos eligendi optio! Corrupti.</p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="kitapResimleri/nohutoda.png" alt="" class="img-fluid rounded-circle w-50 mb-3">
+                            <h3>Nohut Oda</h3>
+                            <h5>Melisa Kesmez</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nemo perspiciatis, dolores in vero porro aliquid quis ab unde similique veniam quod sint adipisci dolorem eum quos eligendi optio! Corrupti.</p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="kitapResimleri/yolda üç kiş.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
+                            <h3>Yolda Üç Kişi</h3>
+                            <h5>Tuna Kiremitçi</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nemo perspiciatis, dolores in vero porro aliquid quis ab unde similique veniam quod sint adipisci dolorem eum quos eligendi optio! Corrupti.</p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="kitapResimleri/olasılıksız.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
+                            <h3>Olasılıksız</h3>
+                            <h5>Adam Fawer</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nemo perspiciatis, dolores in vero porro aliquid quis ab unde similique veniam quod sint adipisci dolorem eum quos eligendi optio! Corrupti.</p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="kitapResimleri/suzan defter.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
+                            <h3>Suzan Defter</h3>
+                            <h5>Ayfer Tunç</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nemo perspiciatis, dolores in vero porro aliquid quis ab unde similique veniam quod sint adipisci dolorem eum quos eligendi optio! Corrupti.</p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="kitapResimleri/sürgün.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
+                            <h3>Sürgün</h3>
+                            <h5>Aytuğ Akdoğan</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nemo perspiciatis, dolores in vero porro aliquid quis ab unde similique veniam quod sint adipisci dolorem eum quos eligendi optio! Corrupti.</p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="kitapResimleri/mutluluk.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
+                            <h3>Mutluluk</h3>
+                            <h5>Zülfü Livaneli</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nemo perspiciatis, dolores in vero porro aliquid quis ab unde similique veniam quod sint adipisci dolorem eum quos eligendi optio! Corrupti.</p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="kitapResimleri/dokunmadan.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
+                            <h3>Dokunmadan</h3>
+                            <h5>Nermin Yıldırım</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nemo perspiciatis, dolores in vero porro aliquid quis ab unde similique veniam quod sint adipisci dolorem eum quos eligendi optio! Corrupti.</p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="kitapResimleri/kardeşiminhikayesi.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
+                            <h3>Kardeşimin Hikayesi</h3>
+                            <h5>Zülfü Livaneli</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nemo perspiciatis, dolores in vero porro aliquid quis ab unde similique veniam quod sint adipisci dolorem eum quos eligendi optio! Corrupti.</p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="kitapResimleri/fakirkene.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
+                            <h3>Fakir Kene</h3>
+                            <h5>Birhan Keskin</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nemo perspiciatis, dolores in vero porro aliquid quis ab unde similique veniam quod sint adipisci dolorem eum quos eligendi optio! Corrupti.</p>
+
+                        </div>
+                    </div>
+
+                </div>
+                
+                
+
+            </div>
+        </div>
+    </section>

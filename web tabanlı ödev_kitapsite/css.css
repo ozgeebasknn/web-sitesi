@@ -1,0 +1,360 @@
+#anasayfa {
+  background-image: url("resimler/anasayfa2.jpg");
+  background-size: 1600px 800px;
+  background-repeat: no-repeat;
+
+}
+
+.rotate-container {
+  position: relative;
+}
+
+.rotate-container .card-front,
+.rotate-container .card-back {
+  width: 100%;
+  height: 100%;
+  -webkit-transform: perspective(600px) rotateY(0deg);
+  transform: perspective(600px) rotateY(0deg);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: all 0.5s linear 0s;
+  transition: all 0.5s linear 0s;
+}
+
+.rotate-container .card-back {
+  -webkit-transform: perspective(1600px) rotateY(180deg);
+  transform: perspective(1600px) rotateY(180deg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.rotate-container .rotate-card-front {
+  -webkit-transform: perspective(1600px) rotateY(-180deg);
+  transform: perspective(1600px) rotateY(-180deg);
+}
+
+.rotate-container .rotate-card-back {
+  -webkit-transform: perspective(1600px) rotateY(0deg);
+  transform: perspective(1600px) rotateY(0deg);
+}
+
+
+.card {
+  box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.5);
+  margin: 10px;
+}
+
+.card .card-header p {
+  margin: 0;
+}
+
+.card .card-background {
+
+  height: 8em;
+  background-position: center center;
+  background-size: cover;
+}
+
+.card .avatar {
+  max-width: 10em;
+  max-height: 10em;
+  margin-top: -4em;
+  margin-bottom: 1em;
+  border: 4px solid white;
+  border-radius: 0%;
+  background: radial-gradient(#e3e3e3, #329A7C, #109381);
+}
+
+.card .btn {
+  margin-bottom: 1em;
+  cursor: pointer;
+}
+
+body {
+  background-color: white;
+}
+
+#fakirKene {
+  background-color: #CC3300;
+}
+
+#karanlikOda {
+  background-color: #FFFACD;
+}
+
+#turkan {
+  background-color: #C0C0C0;
+}
+
+#yesilMurekkep {
+  background-color: #008000;
+}
+
+#nohutOda {
+  background-color: #D2691E;
+}
+
+#yoldaUcKisi {
+  background-color: #669933;
+}
+
+#olasiliksiz {
+  background-color: black;
+}
+
+#mutluluk {
+  background-color: #CC9900;
+}
+
+#suzanDefter {
+  background-color: #669999;
+}
+
+#sürgün {
+  background-color: #2F4F4F;
+}
+
+#capernaum {
+  background-color: #8B4513;
+}
+
+#intoTheWild {
+  background-color: #66CDAA;
+}
+
+#trumanShow {
+  background-color: #0000CD;
+}
+
+#incendies {
+  background-color: #FF0000;
+}
+
+#modernFamily {
+  background-color: #FF4500;
+}
+
+#brooklyn99 {
+  background-color: #FFFF00;
+}
+
+#lovesick {
+  background-color: black;
+}
+
+#upload {
+  background-color: #008080;
+}
+
+#blackMuseum {
+  background-color: #00FFFF;
+}
+
+#goodPlace {
+  background-color: #32CD32;
+}
+
+#diziler {
+  background-image: url("resimler/manzara_1.jpg");
+  background-size: 1600px 1000px;
+  background-size: contain;
+  color: white;
+}
+
+#kitaplar {
+  background-image: url("resimler/arkaplankitap2.jpg");
+  background-size: 1600px 1000px;
+  background-size: contain;
+  color: white;
+
+
+}
+
+#filmler {
+  background-image: url("resimler/manzara_7.jpg");
+  background-size: 1600px 1000px;
+  background-size: contain;
+  color: white;
+
+}
+
+#nameField {
+  width: 350px;
+  height: 40px;
+  color: #FF9900;
+  background-color: black;
+
+}
+
+#surnameField {
+  width: 350px;
+  height: 40px;
+  color: #FF9900;
+  background-color: black;
+}
+
+#emailField {
+  width: 350px;
+  height: 40px;
+  color: #FF9900;
+  background-color: black;
+}
+
+#phoneField {
+  width: 350px;
+  height: 40px;
+  color: #FF9900;
+  background-color: black;
+}
+
+#descField {
+  width: 350px;
+  height: 100px;
+  color: #FF9900;
+  background-color: black;
+}
+
+.btn {
+  background-color: black;
+  color: #FF9900;
+}
+
+label {
+  color: #FF9900;
+}
+
+#iletisim {
+  background-color: #669999;
+  color: white;
+}
+
+#btnOku {
+  background-color: #4B0082;
+  color: thistle;
+}
+
+#btnGeri {
+  background-color: #4B0082;
+  color: thistle;
+}
+
+#btnKitap {
+  background-color: #696969;
+  color: #006400;
+  font-size: 18px;
+}
+
+#btnFilm {
+  background-color: #BC8F8F;
+  color: #A0522D;
+}
+
+#btnDizi {
+  background-color: #4B0082;
+  color: #FF4500;
+}
+
+#kitaplar h5 {
+  color: #FFD700;
+}
+
+#filmler h5 {
+  color: #9ACD32;
+}
+
+#diziler h5 {
+  color: #FF1493;
+}
+
+#instagram {
+  color: #9932CC;
+  border: black solid 2px;
+  background-color: thistle;
+  padding: 5px;
+
+}
+
+#linkedin {
+  color: #9932CC;
+  border: black solid 2px;
+  background-color: thistle;
+  padding: 5px;
+}
+
+#dergi {
+  color: #9932CC;
+  border: black solid 2px;
+  background-color: thistle;
+  padding: 5px;
+}
+
+#mail {
+  color: #9932CC;
+  border: black solid 2px;
+  background-color: thistle;
+  padding: 5px;
+}
+
+#beniTaniyin {
+
+  color: #4B0082;
+}
+
+#kendiYazim {
+  background-color: rebeccapurple;
+}
+
+#hakkimda {
+  background-color: rebeccapurple;
+}
+
+#btnyazi {
+  background-color: #4B0082;
+  color: #BC8F8F;
+}
+
+#btnben {
+  background-color: #4B0082;
+  color: #BC8F8F;
+}
+
+#incele {
+  color: #9932CC;
+  border: black solid 2px;
+  background-color: thistle;
+  padding: 5px;
+}
+
+.active {
+
+  border: white solid 5px;
+}
+
+.navbar {
+  background-color: black;
+
+}
+
+.navbar ul li a {
+
+  font-size: 18px;
+  color: rgb(190, 59, 19);
+  font: bold;
+
+}
+
+.navbar ul li a:hover {
+  background-color: #C0C0C0;
+  border: white solid 5px;
+}
+
+
+
+
+
+
+
+
+
